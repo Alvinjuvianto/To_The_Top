@@ -46,13 +46,14 @@
 <?php include("../includes/layouts/header.php"); ?>
 <div id="main">
 	<div id="navigation">
+		<br/>
 		<a href="index.php">&laquo; Back To Home</a><br />
 	</div><!--#navigation-->
 	<div id="page">
 		<?php echo message(); ?>
 		<?php echo form_errors($errors); ?>
 	
-	<h2>Create Page:</h2>
+	<h2>Contact Us:</h2>
 	<form action="contact_us.php?>" method="post">
 		<table>
 			<tr>
